@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+    color: seashell;
+
+}
+body {
+
+    background-color: black;
+    font-size: 22px;
+    color: seashell;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid seashell;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.logo{
+    display: inline-flex;
+    width: 10px;
+    height: 50px;
+}
+
+.nav {
+
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    
+}
+
+.nav p{
+    display: inline-flex;
+    padding: 0 10px;
+}
+
+.nav p a{
+    color: seashell;
+    font-size: 18px;
+}
+
+.nav p a:hover{
+    text-decoration: none;
+    text-shadow: 0 0 5px #fff;
+}
+
+
+.top-section {
+    display: flex;
+    justify-content: center;
+}
+
+.ourmission {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    width: 1200px;
+    background-image: url("img-mission-background.webp");
+}
+
+.ourmission-headers h2, h4{
+    display: inline-flex;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    background: black;
+    padding-right: 3px;
+    padding-top: 10px 
+}
+
+.middle-section {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+.teaofthemonth {
+    width: 1000px;
+}
+
+.tea-headers {
+    padding-top: 40px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.teas {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+.teas img {
+   padding-right: 25px;
+   height: 200px;
+   width: 300px;
+}
+
+.teas p {
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+
+}
+
+.bottom-section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.locations-main {
+
+    background-image: url("img-locations-background.webp");
+    background-position: 85% 15%;
+    width: 1200px;
+    height: 500px;
+    padding-bottom: 15px;
+}
+
+.location-header {
+    display: flex;
+    justify-content: center;
+    padding-top: 70px;
+    padding-bottom: 15px;
+}
+
+.locations {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.address {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 300px;
+    background-color: black;
+}
+
+.downtown {
+    padding-right: 40px;
+}
+
+.eastbayside {
+    padding-right: 40px;
+}
+
+
+.locations p {
+    padding-bottom: 30px;
+}
+
+.locations h3 {
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.upper-footer {
+   display: flex;
+   justify-content: center;
+   height: 200px;
+}
+
+.upper-footer h2 {
+    padding-top: 10px;
+    padding-bottom: 25px;
+}
+
+.upper-footer h5 {
+    padding-bottom: 20px;
+}
+
+.upper-footer p {
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.bottom-footer {
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+.bottom-footer p {
+    font-size: 16px;
+    font-weight: bold;
+}
